@@ -1,0 +1,74 @@
+.nav {
+  font-size: 20px;
+  padding: 0%;
+  height: 3em;
+  width: 100%;
+}
+.nav-bar {
+  width: 100%;
+}
+.nav-site-logo {
+  margin-left: 7em;
+}
+.nav-logo {
+  height: 100%;
+}
+.nav-search-box {
+  font-size: 14px;
+  height: 2.7em;
+  width: 32em;
+  padding: 0% 1.2em 0% 1.2em;
+  border-color: rgb(255, 255, 255);
+}
+.nav-search-button {
+  font-size: 14px;
+  height: 2.7em;
+}
+.nav-dropdown-group {
+  margin-right: px;
+}
+.nav-dropdown {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  width: 8em;
+}
+.nav-cart {
+  margin: 0;
+  padding: 0 1px 0 0;
+  width: 28em;
+}
+#nav-cart-logo {
+  height: 1.28em;
+  padding-right: 2px;
+}
+.bbd-body {
+  max-width: 100%;
+}
+.bbd-body-img {
+  align-items: center;
+  height: 95%;
+  width: 140em;
+  max-width: 100%;
+}
+.bbd-body-price-slide {
+  margin: 0 2.1px 0 2.1px;
+}
+.bbd-body-price-slide-items {
+  font-size: 14px;
+  width: 22em;
+}
+.bbd-small-store {
+  font-size: 14px;
+  width: 22em;
+}
+.bbd-small-store-down {
+  font-size: 14px;
+   width: 90em;
+  
+}
+.bbd-store-pink{
+  background-color: #e70895;
+  background-color: #db46a4;
+}
+/* $btn-link-hover-color: #db46a4; */
