@@ -1,0 +1,10 @@
+-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality 
+-I./RTE/Device/STM32F407VGTx
+-I./RTE/_Target_1
+-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.6.0/CMSIS/Core/Include
+-IC:/Keil_v5/ARM/PACK/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+-IC:/Keil_v5/ARM/PACK/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc
+-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F407xx  -include "Pre_Include_Global.h"
+-o ./receiver.o -MD "Receiver.c"
